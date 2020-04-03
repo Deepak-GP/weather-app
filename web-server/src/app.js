@@ -1,8 +1,8 @@
 const express = require('express')
 
 const app = express()
-const geoCode = require('./../../weather-app/utils/geocode')
-const forecast = require('./../../weather-app/utils/forecast')
+const geoCode = require('./../../utils/geocode')
+const forecast = require('./../../utils/forecast')
 
 app.get('',(req, res)=>{
     res.send('Hello express!')
